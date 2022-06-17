@@ -1,0 +1,4 @@
+{
+  "ignore": ["./dist"],
+  "exec": "ts-node dist"
+}
