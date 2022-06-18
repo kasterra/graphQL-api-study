@@ -1,4 +1,5 @@
 {
-  "ignore": ["./dist"],
-  "exec": "ts-node dist"
+  "ignore": ["dist/"],
+  "exec": "yarn compile && node dist",
+  "ext": "js,json,ts"
 }
