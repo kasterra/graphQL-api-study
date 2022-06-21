@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__preset-env", "npm:7.9.2"],\
             ["@types/node", "npm:18.0.0"],\
             ["apollo-server", "virtual:8b86302b8ab687585c0c4a14e111bef34322ab2e1eac86bbbfec3f978a3f54e63bfcf5de17c4125eaa9275a928f67f031718a2f3c72d13e21360ba3c4f291b25#npm:3.9.0"],\
+            ["cross-fetch", "npm:3.1.5"],\
             ["graphql", "npm:16.5.0"],\
             ["nodemon", "npm:2.0.16"],\
             ["typescript", "patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"]\
@@ -3278,7 +3279,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/apollo-server-env-npm-4.2.1-20d6ed2759-039c7eeed8.zip/node_modules/apollo-server-env/",\
           "packageDependencies": [\
             ["apollo-server-env", "npm:4.2.1"],\
-            ["node-fetch", "virtual:20d6ed2759968ba28ab6eb0ad28c424b4602e70e7c2fa9e60fe165d6ca69bc99d3f67c4be057125b902d9653e7ddba5137a47279c79a57c168e38f86a29b2d0a#npm:2.6.7"]\
+            ["node-fetch", "virtual:e414995db9c779306e687c7a7c66965e66d0cd7270f6b9fc4f00cc9772c5d50b305ab83e142e0e21dbf10968f7437cbdfcb170d05f4bde68707ac7d0082c9cca#npm:2.6.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3985,6 +3986,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cors", "npm:2.8.5"],\
             ["object-assign", "npm:4.1.1"],\
             ["vary", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["cross-fetch", [\
+        ["npm:3.1.5", {\
+          "packageLocation": "./.yarn/cache/cross-fetch-npm-3.1.5-e414995db9-f6b8c6ee3e.zip/node_modules/cross-fetch/",\
+          "packageDependencies": [\
+            ["cross-fetch", "npm:3.1.5"],\
+            ["node-fetch", "virtual:e414995db9c779306e687c7a7c66965e66d0cd7270f6b9fc4f00cc9772c5d50b305ab83e142e0e21dbf10968f7437cbdfcb170d05f4bde68707ac7d0082c9cca#npm:2.6.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4706,6 +4717,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__preset-env", "npm:7.9.2"],\
             ["@types/node", "npm:18.0.0"],\
             ["apollo-server", "virtual:8b86302b8ab687585c0c4a14e111bef34322ab2e1eac86bbbfec3f978a3f54e63bfcf5de17c4125eaa9275a928f67f031718a2f3c72d13e21360ba3c4f291b25#npm:3.9.0"],\
+            ["cross-fetch", "npm:3.1.5"],\
             ["graphql", "npm:16.5.0"],\
             ["nodemon", "npm:2.0.16"],\
             ["typescript", "patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"]\
@@ -5704,10 +5716,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:20d6ed2759968ba28ab6eb0ad28c424b4602e70e7c2fa9e60fe165d6ca69bc99d3f67c4be057125b902d9653e7ddba5137a47279c79a57c168e38f86a29b2d0a#npm:2.6.7", {\
-          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-cf70bab462/0/cache/node-fetch-npm-2.6.7-777aa2a6df-8d816ffd1e.zip/node_modules/node-fetch/",\
+        ["virtual:e414995db9c779306e687c7a7c66965e66d0cd7270f6b9fc4f00cc9772c5d50b305ab83e142e0e21dbf10968f7437cbdfcb170d05f4bde68707ac7d0082c9cca#npm:2.6.7", {\
+          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-10f4bc17d9/0/cache/node-fetch-npm-2.6.7-777aa2a6df-8d816ffd1e.zip/node_modules/node-fetch/",\
           "packageDependencies": [\
-            ["node-fetch", "virtual:20d6ed2759968ba28ab6eb0ad28c424b4602e70e7c2fa9e60fe165d6ca69bc99d3f67c4be057125b902d9653e7ddba5137a47279c79a57c168e38f86a29b2d0a#npm:2.6.7"],\
+            ["node-fetch", "virtual:e414995db9c779306e687c7a7c66965e66d0cd7270f6b9fc4f00cc9772c5d50b305ab83e142e0e21dbf10968f7437cbdfcb170d05f4bde68707ac7d0082c9cca#npm:2.6.7"],\
             ["@types/encoding", null],\
             ["encoding", null],\
             ["whatwg-url", "npm:5.0.0"]\
